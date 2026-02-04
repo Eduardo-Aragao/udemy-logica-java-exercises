@@ -19,6 +19,10 @@ public class MenorDeTres {
         System.out.print("Terceiro valor: ");
         c = sc.nextInt();
 
+        menor = Math.min(Math.min(a, b), c);
+
+        //----------------------- RESOLUÇÃO COM CONDIÇÃO
+        /*
         if(a < b && a <c ){
             menor = a;
         } else if (b < c) {
@@ -26,6 +30,7 @@ public class MenorDeTres {
         } else {
             menor = c;
         }
+        */
 
         System.out.println("MENOR = " + menor);
 
